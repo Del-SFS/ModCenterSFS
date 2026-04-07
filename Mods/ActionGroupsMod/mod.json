@@ -6,6 +6,6 @@
   "tipo": "mod",
   "dependencias": ["Custom Save Data mod"],
   "conflitos": [],
-  "download": "",
+  "download": "https://raw.githubusercontent.com/Del-SFS/ModCenterSFS/refs/heads/main/Mods/ActionGroupsMod/ActionGroupsMod.zip",
   "tamanho": "29kb"
 }
