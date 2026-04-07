@@ -2,10 +2,10 @@
   "nome": "UITools",
   "autor": "NeptuneSky",
   "versao": "1.1.3",
-  "descricao": "nah",
+  "descricao": "A mod used by many other mods as a dependency, such as PartEditor WARNING! This mod does nothing on its own.",
   "tipo": "mod",
   "dependencias": [],
   "conflitos": [],
-  "download": "https://www.mediafire.com/file/4y3zsoi1pdy5z91/UITools.zip/file",
+  "download": "https://raw.githubusercontent.com/Del-SFS/ModCenterSFS/refs/heads/main/Mods/UITools/UITools.zip",
   "tamanho": "44kb"
 }
