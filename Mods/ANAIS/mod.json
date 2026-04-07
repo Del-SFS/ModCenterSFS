@@ -1,0 +1,11 @@
+{
+  "nome": "ANAIS",
+  "autor": "Altaïr",
+  "versao": "1.4.2",
+  "descricao": "An advanced navigation tool that calculates optimal transfer windows and precise trajectories for interplanetary travel. Mobile: Incompatible; relies on a complex PC-only user interface and .dll processing not available on mobile. Warnings: Requires custom shaders or specific graphics settings to display the navigation lines correctly on the map.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "107kb"
+}
