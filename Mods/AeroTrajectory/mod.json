@@ -1,0 +1,11 @@
+{
+  "nome": "Aero Trajectory",
+  "autor": "Astro The Rabbit",
+  "versao": "1.4.0",
+  "descricao": "Description: Adds a visual trajectory line that accounts for atmospheric drag to help with precise landings. Mobile: Incompatible; the mod uses PC-only .dll scripts that are not supported by the mobile Mod Loader. Warnings: May cause slight performance drops during high-speed atmospheric entries on lower-end systems.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "23kb"
+}
