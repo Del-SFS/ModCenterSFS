@@ -1,0 +1,11 @@
+{
+  "nome": "Acition Groups Mod",
+  "autor": "Astro The Rabbit",
+  "versao": "1.4.0",
+  "descricao": "Introduces custom keybinds to trigger multiple part actions simultaneously for better vessel control. Mobile- Incompatible; requires a physical keyboard and PC-specific .dll files to function. Warnings- Requires the Custom Save Data mod to be installed or groups will not be saved.",
+  "tipo": "mod",
+  "dependencias": ["Custom Save Data mod"],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "29kb"
+}
