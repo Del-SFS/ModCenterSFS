@@ -4,7 +4,7 @@
   "versao": "1.3.0",
   "descricao": "Allows custom solar system creators to implement their own sets of challenges and achievements, similar to the default game's missions. This provides a structured gameplay experience for modded planets. Mobile: Incompatible; relies on Steam-specific file structures and PC-only script injections. Warnings: If a custom system is removed while a challenge is active, it may cause errors in the persistent save file.",
   "tipo": "mod",
-  "dependencias": [],
+  "dependencias": ["Multi Launchpad"],
   "conflitos": [],
   "download": "https://raw.githubusercontent.com/Del-SFS/ModCenterSFS/refs/heads/main/Mods/CustomChallengesMod/CustomChallengesMod.zip",
   "tamanho": "47kb"
