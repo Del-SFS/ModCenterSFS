@@ -1,0 +1,11 @@
+{
+  "nome": "Custom Assets Ready API",
+  "autor": "kojamori",
+  "versao": "2.0.1",
+  "descricao": "A technical framework that allows the game to recognize and load custom assets (like parts and textures) dynamically without manual restarts or complex file placements. Mobile: Incompatible; relies on the PC version's Mod Loader and internal file system hooks. Warnings: This is a core dependency; removing it will cause any mods that rely on it to fail or not load their visual assets.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "8kb"
+}
