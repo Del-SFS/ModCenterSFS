@@ -1,0 +1,11 @@
+{
+  "nome": "Physics Range Extender",
+  "autor": "Astro The Rabbit",
+  "versao": "1.0.0",
+  "descricao": "Increases the physics calculation distance, preventing distant vessels from despawning or freezing when they are far from the player's active ship. Mobile: Incompatible; requires PC-only modifications to the game's core physics engine to maintain active simulation zones. Warnings: Expanding the range significantly can cause major lag or frame rate drops when multiple complex rockets are nearby.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "9kb"
+}
