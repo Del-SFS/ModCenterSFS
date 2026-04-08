@@ -1,0 +1,11 @@
+{
+  "nome": "OptiSFS",
+  "autor": "VerdiX",
+  "versao": "0.1.0",
+  "descricao": "Optimizes game performance by reducing CPU overhead and streamlining how the game handles large part counts in the scene. Mobile: Incompatible; uses low-level PC memory management and .dll injections that the mobile version blocks. Warnings: As an alpha release, it may cause instability or conflicts with other mods that modify game physics.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "35kb"
+}
