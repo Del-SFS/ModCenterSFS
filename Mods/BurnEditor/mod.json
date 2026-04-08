@@ -4,7 +4,7 @@
   "versao": "1.3.0",
   "descricao": "Allows you to edit engine thrust and burn parameters in real-time to create custom performance profiles for your rockets. Mobile: Incompatible; relies on the PC-only Mod Loader and custom UI windows not available on mobile devices. Warnings: Overclocking engine stats to extreme values can cause physics instability or game crashes during flight.",
   "tipo": "mod",
-  "dependencias": ["UITools"],
+  "dependencias": [],
   "conflitos": [],
   "download": "https://raw.githubusercontent.com/Del-SFS/ModCenterSFS/refs/heads/main/Mods/BurnEditor/BurnEditor.zip",
   "tamanho": "14kb"
