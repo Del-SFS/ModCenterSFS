@@ -1,0 +1,11 @@
+{
+  "nome": "Build Grid Utils",
+  "autor": "NeptuneSky",
+  "versao": "1.0.0",
+  "descricao": "Provides advanced customization for the building grid, allowing you to change colors, grid size, and opacity to improve precision. Mobile: Incompatible; uses PC-only scripts to modify the internal game UI and rendering settings. Warnings: Modifying grid values to extreme levels can cause visual glitches in the Build Mode.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "15kb"
+}
