@@ -1,55 +1,38 @@
-Here's a professional and well-structured README.md template for your repository, focused on both the mod repository and the SCAN software.
 
-🚀 ModCenterSFS & SCAN
-Welcome to ModCenterSFS, the centralized mod repository for Spaceflight Simulator (SFS), and SCAN (SFS Comprehensive Archive Network), the ultimate tool for managing your PC experience.
+## 🚀 SCAN | SFS Comprehensive Archive Network ##
+Central Repository: ModCenterSFS
+This is the official repository powering SCAN, the automated mod manager for Spaceflight Simulator. We centralize metadata and download links here to ensure the community always has access to the latest mod versions.
 
-📦 About ModCenterSFS
-ModCenterSFS is a community-maintained online directory (led by Del) that hosts configuration files (mod.json) and download links for the best SFS mods.
+## 📂 The ModCenterSFS Project ##
+ModCenterSFS is more than just a folder of files; it is a dynamic database in JSON format.
 
-Direct Sync: All mods listed here are compatible with the SCAN search engine.
+repo.json: The "brain" of the project. It contains the list of all active mod links.
 
-Curated: Selection of mods that expand the game's possibilities, from interface utilities to new solar systems.
+Individual .json files: Each mod has its own configuration file containing:
 
-JSON Repository: Organized structure so developers can easily integrate their own mods.
+Current version.
 
-🖥️ What is SCAN?
+Direct download link.
 
-SCAN (SFS Comprehensive Archive Network) is a mod manager developed in Python, designed to make life easier for SFS players on PC. It eliminates the need to manually install mods, handling downloads, extractions, and dependencies.
+Required dependencies.
 
-Key Features:
+Technical description.
 
-Intuitive Interface: Clear mod list with [X] marking system for bulk installation.
+## 🖥️ The SCAN Software ##
+SCAN is a smart installer developed in Python that reads this repository in real-time to automate your game setup.
 
-Smart Installation: Automatically detects whether the mod is a parts file, textures, solar system, or a .dll script, moving the files to the correct game folders.
+## 🛠️ Key Features ##
+Auto-Update: Automatically checks for new mod versions every time you launch the app.
 
-Dependency Management: If a mod requires another to function (such as UI Tools), SCAN identifies and suggests automatic installation.
+Smart Folder Mapping: SCAN knows exactly where each file belongs:
+| Mod Type | SFS Destination |
+| :--- | :--- |
+| DLL | /Mods |
+| Parts | /Custom Assets/Parts |
+| Textures | /Custom Assets/Texture Packs |
+| Solar Systems | /Spaceflight Simulator_Data/Custom Solar Systems |
+---
+👨‍💻 Credits and Development
+Lead Developer: Del
 
-Conflict Prevention: Alerts the user before installing mods that don't work well together.
-
-Play SFS: Integrated button to launch the game directly after applying changes.
-
-🛠️ How to use SCAN
-Initial Setup: When you open SCAN, click on Set Game Path and select the root folder of your Spaceflight Simulator.
-
-Synchronization: The program will automatically search for the latest mod list from ModCenterSFS.
-
-Selection: Check the mods you want to install in the Inst. column.
-
-Application: Click on APPLY CHANGES. SCAN will download, extract, and organize everything for you.
-
-Takeoff: Click on 🚀 PLAY SFS and enjoy your new mods!
-
-🤝 Contribute
-If you are a mod developer and want your work to appear on SCAN:
-
-Fork this repository.
-
-Add your your_mod.json file to the mods folder.
-
-Update repo.json with the link to your file.
-
-Open a Pull Request.
-
-Developed by: Del
-
-Spaceflight Simulator is a registered trademark of Stefo Mai Morojna.
+Platform: Spaceflight Simulator (PC Version) of Spaceflight Simulator is a registered trademark of **Stefo Mai Morojna**.
