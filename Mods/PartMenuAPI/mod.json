@@ -1,0 +1,11 @@
+{
+  "nome": "PartMenuAPI",
+  "autor": "kojamori",
+  "versao": "1.0.0",
+  "descricao": "A technical framework that provides a standardized API for creating and managing part menus within the game. Mobile: Incompatible; requires PC-only modifications to the game's UI system. Warnings: This is a core dependency; removing it will cause any mods that rely on it to fail or not load their part menus.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "6kB"
+}
