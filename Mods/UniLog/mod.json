@@ -1,0 +1,11 @@
+{
+  "nome": "UniLog",
+  "autor": "kojamori",
+  "versao": "1.0.1",
+  "descricao": "Acts as a centralized logging utility that records technical data and errors from multiple mods into a single file for easier debugging. Mobile: Incompatible; requires PC-only file system access and the ability to intercept internal game console logs. Warnings: This is a background utility intended for developers; it does not add visible gameplay features for the average user.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "6kb"
+}
