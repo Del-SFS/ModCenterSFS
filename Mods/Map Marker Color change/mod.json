@@ -1,0 +1,11 @@
+{
+  "nome": "Map Marker Color change Mod",
+  "autor": "Filiphi",
+  "versao": "1.4.0 Alpha",
+  "descricao": "Allows you to customize the colors of map markers and trajectory lines to better distinguish between different vessels and targets. Mobile: Incompatible; modifies the PC-only rendering system for map icons and pathing. Warnings: Changing colors to extremely dark or transparent values can make markers invisible on the map.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "9kb"
+}
