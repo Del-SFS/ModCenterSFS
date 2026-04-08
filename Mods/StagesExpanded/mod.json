@@ -1,0 +1,11 @@
+{
+  "nome": "Stages Expanded",
+  "autor": "Astro The Rabbit",
+  "versao": "1.3.0",
+  "descricao": "Expands the number of available stages in the game, providing more content and variety for players to explore. Mobile: Incompatible; requires PC-only modifications to the game's stage loading system. Warnings: Adding too many stages can cause performance issues or increased load times.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "66kb"
+}
