@@ -1,0 +1,11 @@
+{
+  "nome": "Show All Orbit Lines",
+  "autor": "SFSGamer-bili",
+  "versao": "1.0.0",
+  "descricao": "Displays all orbit lines in the game, making it easier to visualize the trajectories of celestial bodies and spacecraft. Mobile: Incompatible; requires PC-only modifications to the game's rendering system. Warnings: Displaying too many orbit lines can impact performance and visual clarity.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "8kb"
+}
