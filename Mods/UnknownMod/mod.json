@@ -1,0 +1,11 @@
+{
+  "nome": "UnknownMod",
+  "autor": "Vincent_013 | MrUnknown",
+  "versao": "1.0.0",
+  "descricao": "Adds a real-time thrust-to-weight ratio (TWR) and total thrust indicator to the game's flight interface for better launch planning. Mobile: Incompatible; requires the PC version's Mod Loader to hook into the game's physics and UI engine. Warnings: The thrust values may fluctuate slightly during stage separations or when using engines with varying ISP.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "17kb"
+}
