@@ -1,0 +1,11 @@
+{
+  "nome": "Transletion Mod",
+  "autor": "SFSGamer-bibi",
+  "versao": "1.0.0",
+  "descricao": "Allows users to add and switch between custom language files, making the game accessible in languages not officially supported by the developers. It provides a framework for the community to translate menus, part names, and UI elements. Mobile: Incompatible; relies on external file loading and font injection methods exclusive to the PC Mod Loader. Warnings: If a translation file is poorly formatted, it may cause text strings to display as internal code IDs (e.g., "Label_Start_Game").",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "14kb"
+}
