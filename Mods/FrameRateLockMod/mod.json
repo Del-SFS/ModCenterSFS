@@ -1,0 +1,11 @@
+{
+  "nome": "Frame RateLock Mod",
+  "autor": "DarkSpace",
+  "versao": "1.0.1",
+  "descricao": "Allows players to set a custom frame rate limit (FPS cap), which helps in stabilizing performance on high-refresh monitors or reducing power consumption and heat on laptops. Mobile: Incompatible; the mobile version uses the system's native V-Sync/refresh rate and does not allow for external FPS overrides. Warnings: Setting the lock too low may cause input lag, while setting it too high on weak hardware can cause inconsistent stuttering.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "7kb"
+}
