@@ -2,10 +2,10 @@
   "nome": "ColorResBar",
   "autor": "SFSGamer-bibi",
   "versao": "1.0.0",
-  "descricao": "",
+  "descricao": "Changes the color of the resource bars (like fuel and electricity) to make them more visually distinct or easier to read against different backgrounds. It's a simple cosmetic tweak for the game's UI. Mobile: Incompatible; requires the PC Mod Loader to modify UI element shaders. Warnings: None.",
   "tipo": "mod",
   "dependencias": [],
   "conflitos": [],
-  "download": "",
+  "download": "https://raw.githubusercontent.com/Del-SFS/ModCenterSFS/refs/heads/main/Mods/ColorResBar/ColorResBar.zip",
   "tamanho": "14kb"
 }
