@@ -1,0 +1,11 @@
+{
+  "nome": "Hyperwarp",
+  "autor": "jaconos",
+  "versao": "1.0.0",
+  "descricao": "Allows for significantly higher physical timewarp speeds (up to 1000x), enabling long-duration engine burns and orbital maneuvers to be completed much faster while maintaining active physics. Mobile: Incompatible; requires deep injection into the PC version's physics engine to override the standard timewarp limits. Warnings: Using extreme physical warp speeds (like 1000x) can cause rockets to wobble, explode, or pass through solid planets due to physics calculation gaps.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "6kb"
+}
