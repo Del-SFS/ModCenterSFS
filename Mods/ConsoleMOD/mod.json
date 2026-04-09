@@ -1,0 +1,11 @@
+{
+  "nome": "Console MOD",
+  "autor": "Dark Space",
+  "versao": "1.0.0",
+  "descricao": "Expands the built-in game console with new administrative and debugging commands, allowing players to teleport vessels, change orbits instantly, and manipulate game variables through text input. Mobile: Incompatible; the mobile version lacks the accessible developer console and the assembly hooks needed to inject new command logic. Warnings: Using powerful commands like "set orbit" or "teleport" can cause physics glitches if the vessel is spawned inside a planet's collision mesh.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "17kb"
+}
