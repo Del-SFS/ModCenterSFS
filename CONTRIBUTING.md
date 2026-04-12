@@ -41,7 +41,7 @@ git push origin my-feature
 
 Create a new .json file inside:
 ```
-Mods/
+Mods//folder with the mod's name
 ```
 🧾 Step 2: Follow the standard format
 ```
@@ -57,6 +57,8 @@ Mods/
   "tamanho": "File size (MB)"
 }
 ```
+*And don't forget the mod zip file.*
+
 ✅ Step 3: Validate your mod
 
 Before submitting, ensure:
