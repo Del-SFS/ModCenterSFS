@@ -1,4 +1,6 @@
 # 🚀 SCAN | SFS Comprehensive Archive Network
+## Attention ##
+The SCAN is being converted from Python to C#
 
 Central Repository: ModCenterSFS  
 
