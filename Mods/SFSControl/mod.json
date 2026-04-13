@@ -1,0 +1,11 @@
+{
+  "nome": "SFS Control",
+  "autor": "SFSGamer-bibi",
+  "versao": "1.3.1",
+  "descricao": "Provides a core API framework that allows other mods to interact with the game and extend its functionality through shared systems and hooks. Mobile: Incompatible; relies on .dll-based modloader features not supported on mobile platforms. Warnings: This mod does not add gameplay features by itself and is intended as a dependency for other mods.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "121kb"
+}
