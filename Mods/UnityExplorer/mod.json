@@ -1,0 +1,11 @@
+{
+  "nome": "Unity Explorer",
+  "autor": "NeptuneSky",
+  "versao": "1.0.0",
+  "descricao": "Adds an in-game Unity inspector and explorer interface that allows users to view, analyze, and modify game objects, components, and variables in real time for debugging and advanced modding. Mobile: Incompatible; requires .dll injection and runtime inspection tools only available on PC modloader environments. Warnings: Intended for advanced users and can easily break game behavior or cause instability if values are modified incorrectly.",
+  "tipo": "mod",
+  "dependencias": ["UITools"],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "12kb"
+}
