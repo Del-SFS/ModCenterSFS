@@ -1,0 +1,11 @@
+{
+  "nome": "Improved Landmarks Mod",
+  "autor": "jorgeluizreis",
+  "versao": "1.0.0",
+  "descricao": "Improves planetary landmarks by enhancing their visibility and detail, making it easier to identify surface locations and navigate during missions. Mobile: Compatible; uses standard visual assets that work on both PC and mobile versions. Warnings: May slightly impact performance on low-end devices due to increased visual detail.",
+  "tipo": "Mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "33kb"
+}
