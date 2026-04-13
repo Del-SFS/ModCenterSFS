@@ -1,0 +1,11 @@
+{
+  "nome": "Console Logger Mod",
+  "autor": "Roshan",
+  "versao": "1.0.0",
+  "descricao": "Adds a console logging system that records in-game events, debug messages, and mod activity to assist with troubleshooting and development. Mobile: Incompatible; depends on PC-only console access and .dll-based modloader features not available on mobile. Warnings: Intended for debugging purposes and may produce large log files or impact performance if left running continuously.",
+  "tipo": "Mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "7kb"
+}
