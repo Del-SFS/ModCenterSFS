@@ -1,0 +1,11 @@
+{
+  "nome": "Enhanced Settings",
+  "autor": "SFSGamer-bili",
+  "versao": "1.0.0",
+  "descricao": "Expands the in-game settings menu by adding additional configuration options for graphics, gameplay, and interface customization, allowing finer control over the game experience. Mobile: Partial; basic settings may work but advanced options relying on UI extensions or modloader features may not function correctly. Warnings: Incorrect configuration may cause visual glitches or reduced performance if unsupported settings are enabled.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "10kb"
+}
