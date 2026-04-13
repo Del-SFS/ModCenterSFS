@@ -1,0 +1,11 @@
+{
+  "nome": "Custom Music Mod",
+  "autor": "Neptune Sky",
+  "versao": "2.0.2",
+  "descricao": "Allows the game to play custom background music by loading user-provided MP3 files, replacing or extending the default soundtrack for a personalized experience. Mobile: Incompatible; modifying or injecting custom audio playback typically requires PC file access and modloader support not available on mobile. Warnings: May not work with all game versions and can require specific file formats or naming to function correctly.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "23kb"
+}
