@@ -1,0 +1,11 @@
+{
+  "nome": "Unrestrict Mod",
+  "autor": "SFSGamer-bili",
+  "versao": "1.0.0",
+  "descricao": "Removes built-in gameplay restrictions, allowing full access to normally limited features such as part placement, build limits, or mechanics constraints, giving the player complete freedom in design and gameplay. Mobile: Partial; basic unrestricted features may work but advanced functions depending on modloader behavior may not be supported. Warnings: Can break game balance or cause instability when exceeding normal limits.",
+  "tipo": "mod",
+  "dependencias": [],
+  "conflitos": [],
+  "download": "",
+  "tamanho": "6kb"
+}
