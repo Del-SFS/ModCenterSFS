@@ -10,43 +10,35 @@ This repository is designed to be **machine-readable**, so all submissions must 
 
 Follow this process exactly to ensure your mod works correctly with SCAN.
 
-## 1. Download the Mod ##
+### 1. Download the Mod
 
 Download the mod in its original `.zip` format.
 
-## 2. Validate the Mod ZIP ##
+### 2. Validate the Mod ZIP
 
 The mod `.zip` must contain ONLY the mod files.
 
-## ✅ Correct structure: ##
+### ✅ Correct structure:
 
 ```
-mod.dll
-assets/
-textures/
+Mod/
+├──Mod.zip
+├──mod.json
 ```
+then compress the folder with mod.zip and mod.json
 
-## ❌ Incorrect structure: ##
+### 3. Create a Mod Folder 
 
-```
-ModName/
-folder/
-nested/
-```
-`The ZIP must NOT contain extra folders.`
-
-## 3. Create a Mod Folder ##
-
-Create a folder using the mod name:
+Create a folder using the mod name
 
 `ModName/`
 
-## 4. Create mod.json ##
+### 4. Create mod.json 
 
 Inside the folder, create a file named:
 
-## mod.json ##
-Example:
+**mod.json**
+standard:
 
 ```
 {
@@ -62,7 +54,7 @@ Example:
 }
 ```
 
-5. Add Files
+### 5. Add Files
 
 Place both files inside the folder:
 
@@ -72,38 +64,39 @@ ModName/
  └── mod.json
  ```
 
-## 6. Final Packaging ##
+### 6. Final Packaging ##
 
 Compress the folder into a final `.zip`:
 
-`
+```
 ModName.zip
  ├── ModName.zip
  └── mod.json
-`
+```
 
-📌 Final Structure Summary
+### 📌 Final Structure Summary
 
-`
-FinalFile.zip
- ├── ModName.zip
- └── mod.json
- `
+```
+FinalFile.zip 
+ ├── ModName.zip 
+ |   └──mod.dll .pack etc... 
+ └── mod.json  
+ ```
 
 ## 🚀 How to Submit
 
-# Fork the repository on GitHub
+Fork the repository on GitHub
 
 ```
-git clone https://github.com/Del-SFS/ModCenterSFS
+# Fork the repository on GitHub
+
+git clone https://github.com/YOUR-USERNAME/ModCenterSFS
 cd ModCenterSFS
 
 # Add your mod
 
 git add .
-
 git commit -m "Add ModName"
-
 git push origin main
 ```
 
@@ -126,4 +119,4 @@ Invalid submissions may be rejected automatically.
 
 contact the [Del](DelDoSFS@outlook.com)
 
-👨‍💻 Maintained by Del
+👨‍💻 Maintained by ***Del***
