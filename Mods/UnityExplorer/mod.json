@@ -6,6 +6,6 @@
   "tipo": "mod",
   "dependencias": ["UITools"],
   "conflitos": [],
-  "download": "https://raw.githubusercontent.com/Del-SFS/ModCenterSFS/refs/heads/main/Mods/UnityExplorer/UnityExplorer.zip",
+  "download": "",
   "tamanho": "12kb"
 }
