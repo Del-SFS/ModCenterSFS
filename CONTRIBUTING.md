@@ -1,110 +1,129 @@
 # 🤝 Contributing to ModCenterSFS
 
-Thanks for your interest in contributing to **ModCenterSFS**!  
-This repository powers the SCAN system for managing mods in Spaceflight Simulator.
+Thank you for contributing to **SCAN (SFS Comprehensive Archive Network)**.
 
-We welcome all contributions — from adding new mods to improving the structure of the project.
+This repository is designed to be **machine-readable**, so all submissions must strictly follow the required format.
 
 ---
 
-# 📦 Ways to Contribute
+# 📦 Mod Submission Workflow #
 
-You can help in several ways:
+Follow this process exactly to ensure your mod works correctly with SCAN.
 
-- ➕ Add new mods
-- 🐞 Fix broken mod entries
-- 🔧 Improve JSON structure
-- 📚 Improve documentation
-- 💡 Suggest new features for SCAN
+## 1. Download the Mod ##
 
-# 🔀 Contribution Workflow
+Download the mod in its original `.zip` format.
 
-1. Fork the repository  
-2. Create a new branch:
-   ```bash
-   git checkout -b my-feature
-3. Make your changes
+## 2. Validate the Mod ZIP ##
 
-4. Commit:
-```bash
-git commit -m "Add: new mod or improvement"
+The mod `.zip` must contain ONLY the mod files.
+
+## ✅ Correct structure: ##
 
 ```
-5. Push to your fork:
+mod.dll
+assets/
+textures/
 ```
-git push origin my-feature
-```
-6. Open a Pull Request
 
-# ➕ Adding a New Mod #
-📁 Step 1: Create the file
+## ❌ Incorrect structure: ##
 
-Create a new .json file inside:
 ```
-Mods//folder with the mod's name
+ModName/
+folder/
+nested/
 ```
-🧾 Step 2: Follow the standard format
+`The ZIP must NOT contain extra folders.`
+
+## 3. Create a Mod Folder ##
+
+Create a folder using the mod name:
+
+`ModName/`
+
+## 4. Create mod.json ##
+
+Inside the folder, create a file named:
+
+## mod.json ##
+Example:
+
 ```
 {
-  "nome": "Mod Name",
-  "autor": "Author",
-  "versao": "1.0.0",
-  "descricao": "Short description",
-  "tipo": "Parts / DLL / Texture / System",
-  "dependencias": [],
-  "conflitos": [],
-  "download": "Direct download link",
-  "tamanho": "File size (MB)"
+    "nome": "ModName",
+    "autor": "Author",
+    "versao": "1.0.0",
+    "descricao": "Description",
+    "tipo": "DLL / Parts / Texture / System",
+    "dependencias": [],
+    "conflitos": [],
+    "download": "URL",
+    "tamanho": "MB"
 }
 ```
-*And don't forget the mod zip file.*
 
-✅ Step 3: Validate your mod
+5. Add Files
 
-Before submitting, ensure:
+Place both files inside the folder:
 
-- ✔ JSON is valid (no syntax errors)
-- ✔ Download link works
-- ✔ Version is correct
-- ✔ Dependencies are listed (if any)
-- ✔ No duplicate mods exist
+```
+ModName/
+ ├── ModName.zip
+ └── mod.json
+ ```
 
-# ⚠️ Rules & Guidelines
-Do NOT submit broken or fake links
-Keep formatting clean and consistent
-Use clear and accurate descriptions
-Avoid duplicate entries
-Respect other contributors' work
+## 6. Final Packaging ##
 
-# 🐞 Reporting Issues
+Compress the folder into a final `.zip`:
 
-If you find a problem, please open an Issue and include:
+`
+ModName.zip
+ ├── ModName.zip
+ └── mod.json
+`
 
-- Mod name
-- Description of the issue
-- Screenshot (if possible)
-- Suggested fix (optional)
+📌 Final Structure Summary
 
-# 💡 Suggesting Features
-Have an idea for SCAN or the repo?
+`
+FinalFile.zip
+ ├── ModName.zip
+ └── mod.json
+ `
 
-Open an Issue with:
+## 🚀 How to Submit
 
-- Feature description
-- Use case
-- Optional implementation idea
+# Fork the repository on GitHub
 
-# 🧠 Development Notes
-This repo acts as a JSON-based mod database
-SCAN reads repo.json to install mods
-Structure consistency is critical
-- 👨‍💻 Code of Conduct
-- Be respectful
-- Be constructive
-- Help others learn
-- 🚀 Final Notes
+```
+git clone https://github.com/Del-SFS/ModCenterSFS
+cd ModCenterSFS
 
-Even small contributions matter.
-By contributing, you help improve the entire Spaceflight Simulator modding community.
+# Add your mod
 
-**Thanks for being part of the project 💙** *del*
+git add .
+
+git commit -m "Add ModName"
+
+git push origin main
+```
+
+Then open a Pull Request on GitHub.
+
+**📌 Rules**
+
+Follow the required structure strictly
+Ensure mod.json is valid
+Do not upload broken or incomplete mods
+Avoid duplicate submissions
+
+## 🧠 Notes ##
+
+SCAN depends on correct formatting.
+
+Invalid submissions may be rejected automatically.
+
+## 💡 Need Help? ##
+
+contact the [Del](DelDoSFS@outlook.com)
+
+👨‍💻 Maintained by Del
