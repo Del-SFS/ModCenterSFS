@@ -38,16 +38,18 @@ ModCenterSFS is not just a file collection — it acts as a **structured JSON-ba
   "tamanho": "MB"
 }
 ```
-nome -> Name
-autor -> Author
-verção -> Version
-descrição -> Description
-tipo -> Type
-dependencias -> Dependencies 
-conflitos -> Conflicts
-baixar -> Download
-tamanho -> Size
-
+translation:
+```
+nome -> Name 
+autor -> Author 
+verção -> Version 
+descrição -> Description 
+tipo -> Type 
+dependencias -> Dependencies  
+comflitos -> Conflicts 
+baixar -> Download 
+tamanho -> Size 
+```
 ### 🖥️ About SCAN ###
 
 SCAN is a Python-based installer that reads this repository in real-time and automates mod installation.
@@ -57,6 +59,7 @@ SCAN is a Python-based installer that reads this repository in real-time and aut
 - Resolve dependencies
 - Detect conflicts
 - Install files in correct directories
+- 
 ### 🛠️ Features ###
 - Automatically checks for new versions on startup
 - Dependency Management
@@ -65,12 +68,14 @@ SCAN is a Python-based installer that reads this repository in real-time and aut
 - Warns about incompatible mods
 - Smart Folder Mapping
 - Mod Type	SFS Destination
+
 ```
 DLL	/Mods
 Parts	/Custom Assets/Parts
 Textures	/Custom Assets/Texture Packs
 Solar Systems	/Spaceflight Simulator_Data/Custom Solar Systems
 ```
+
 ### 🤝 Contributing ###
 Contributions are welcome and encouraged.
 
@@ -86,6 +91,7 @@ Contributions are welcome and encouraged.
 - git checkout -b my-feature
 - git commit -m "Add new mod"
 - git push origin my-feature
+- 
 ### ➕ Adding a Mod ###
 Create a .json file inside Mods/
 Follow the standard structure
@@ -110,6 +116,7 @@ ModCenterSFS (this repo)
         ↓
 Installs mods into SFS
 ```
+
 ## 🌐 Website ##
 
 Project page:
@@ -117,6 +124,7 @@ https://del-sfs.github.io/
 
 ## 👨‍💻 Credits ##
 Lead Developer: Del
+
 ## ⚠️ Disclaimer ##
 
 **Spaceflight Simulator is a registered trademark of **Stefo Mai Morojna.**
