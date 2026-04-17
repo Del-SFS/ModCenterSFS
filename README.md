@@ -38,6 +38,16 @@ ModCenterSFS is not just a file collection — it acts as a **structured JSON-ba
   "tamanho": "MB"
 }
 ```
+nome -> Name
+autor -> Author
+verção -> Version
+descrição -> Description
+tipo -> Type
+dependencias -> Dependencies 
+conflitos -> Conflicts
+baixar -> Download
+tamanho -> Size
+
 ### 🖥️ About SCAN ###
 
 SCAN is a Python-based installer that reads this repository in real-time and automates mod installation.
