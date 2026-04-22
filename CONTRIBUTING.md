@@ -4,7 +4,19 @@ Thank you for contributing to **SCAN (SFS Comprehensive Archive Network)**.
 
 This repository is designed to be **machine-readable**, so all submissions must strictly follow the required format.
 
----
+
+## ⚡ Quick Start (2 minutes)
+
+1. Download a mod
+2. Create a folder with the mod name
+3. Add:
+   - ModName.zip (ONLY mod files)
+   - mod.json
+4. Zip the folder
+5. Open a Pull Request
+
+You're done.
+
 
 # 📦 Mod Submission Workflow #
 
