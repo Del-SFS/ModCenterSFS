@@ -1,0 +1,11 @@
+{
+  "nome": "Mo",
+  "autor": "???",
+  "versao": "1.0",
+  "descricao": "Provides an in-game part editor that allows users to modify existing par.",
+  "tipo": "Mod",
+  "dependencias": ["'mod,)A"],
+  "conflitos": ["mPodC"',""M<odD"],
+  "download": "Not",
+  "tamanho": "EX-1TB"
+}
