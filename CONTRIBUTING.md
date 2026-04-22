@@ -1,134 +1,120 @@
-# 🤝 Contributing to ModCenterSFS
+# Contributing to ModCenterSFS
 
-Thank you for contributing to **SCAN (SFS Comprehensive Archive Network)**.
+Thank you for contributing to the SCAN Mod Database.
 
-This repository is designed to be **machine-readable**, so all submissions must strictly follow the required format.
+This repository stores mods that can be installed automatically using SCAN.
 
+---
 
-## ⚡ Quick Start (2 minutes)
+# 🚀 How to Add a Mod
 
-1. Download a mod
-2. Create a folder with the mod name
-3. Add:
-   - ModName.zip (ONLY mod files)
-   - mod.json
-4. Zip the folder
-5. Open a Pull Request
+Follow this EXACT process:
 
-You're done.
+## 1. Download your mod
+- The mod must be in `.zip` format
 
+## 2. Create a folder
+The folder name must match your mod name:
 
-# 📦 Mod Submission Workflow #
+`TYPE/YourModName/`
 
-Follow this process exactly to ensure your mod works correctly with SCAN.
+Example:
 
-### 1. Download the Mod
+`Parts/MyCoolMod/`
 
-Download the mod in its original `.zip` format.
+## 3. Add required files
 
-### 2. Validate the Mod ZIP
-
-The mod `.zip` must contain ONLY the mod files.
-
-### ✅ Correct structure:
-
+Inside the folder:
 ```
-Mod/
-├──Mod.zip
-├──mod.json
+YourModName/
+├── YourModName.zip 
+└── mod.json
 ```
-then compress the folder with mod.zip and mod.json
 
-### 3. Create a Mod Folder 
+## 4. Create mod.json
 
-Create a folder using the mod name
+Example:
 
-`ModName/`
-
-### 4. Create mod.json 
-
-Inside the folder, create a file named:
-
-**mod.json**
-standard:
-
-```
+```json
 {
-    "nome": "ModName",
-    "autor": "Author",
-    "versao": "1.0.0",
-    "descricao": "Description",
-    "tipo": "DLL / Parts / Texture / System",
-    "dependencias": [],
-    "conflitos": [],
-    "download": "URL",
-    "tamanho": "MB"
+  "name": "MyCoolMod",
+  "author": "YourName",
+  "version": "1.0.0",
+  "type": "DLL",
+  "description": "Describe your mod"
 }
 ```
 
-### 5. Add Files
+## 📦 Zip Structure Rules (VERY IMPORTANT)
 
-Place both files inside the folder:
+✅ DLL / .pack mods
+
+Zip must contain ONLY the file:
 
 ```
-ModName/
- ├── ModName.zip
- └── mod.json
+MyCoolMod.zip 
+  └── mod.dll
+```
+
+OR 
+
+```
+MyCoolMod.zip 
+ └── mod.pack
  ```
 
-### 6. Final Packaging ##
+✔ No folders allowed
 
-Compress the folder into a final `.zip`:
+✅ Texture / Solar mods
 
-```
-ModName.zip
- ├── ModName.zip
- └── mod.json
-```
-
-### 📌 Final Structure Summary
+Zip can contain folders:
 
 ```
-FinalFile.zip 
- ├── ModName.zip 
- |   └──mod.dll .pack etc... 
- └── mod.json  
- ```
-
-## 🚀 How to Submit
-
-Fork the repository on GitHub
-
-```
-# Fork the repository on GitHub
-
-git clone https://github.com/YOUR-USERNAME/ModCenterSFS
-cd ModCenterSFS
-
-# Add your mod
-
-git add .
-git commit -m "Add ModName"
-git push origin main
+MyCoolMod.zip
+  └── SolarSystem/
 ```
 
-Then open a Pull Request on GitHub.
+```
+MyCoolMod.zip
+  └── Textures/
+```
 
-**📌 Rules**
+✔ Keep original structure
+✔ Do NOT modify anything
 
-Follow the required structure strictly
-Ensure mod.json is valid
-Do not upload broken or incomplete mods
-Avoid duplicate submissions
+❌ Invalid structure 
 
-## 🧠 Notes ##
+```
+MyCoolMod.zip 
+ └── MyCoolMod/ 
+     └── mod.dll
+```
 
-SCAN depends on correct formatting.
+❌ Nested folders are NOT allowed
 
-Invalid submissions may be rejected automatically.
+## 📁 Types
 
-## 💡 Need Help? ##
+Use ONLY these values in "type":
 
-contact the [Del](DelDoSFS@outlook.com)
+mod 
+parts 
+texture 
+solar 
 
-👨‍💻 Maintained by ***Del***
+## ⚠️ Rules
+
+Folder name = mod name 
+Zip name = mod name 
+Must include mod.json 
+No broken or incomplete mods 
+No invalid zip structure 
+
+## 🔄 Final Step
+
+Open a Pull Request with your mod.
+
+## 🎯 Goal
+
+Make mods easy to install using SCAN.
+
+Your contribution helps build a reliable mod ecosystem.
