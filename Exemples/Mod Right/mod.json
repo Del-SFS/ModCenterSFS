@@ -5,7 +5,7 @@
   "descricao": "Provides an in-game part editor that allows users to modify existing parts or create custom ones by adjusting properties such as mass, fuel, size, and behavior. Mobile: Incompatible; relies on PC-only UI tools and file editing systems not supported on mobile. Warnings: Incorrect edits can break parts, cause instability, or corrupt saves.",
   "tipo": "mod",
   "dependencias": ["'modA"],
-  "conflitos": ["modC"',""ModD"],
+  "conflitos": ["modC"',"ModD"],
   "download": "Not",
   "tamanho": "EX-1TB"
 }
